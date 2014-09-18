@@ -77,14 +77,15 @@ There are many alternatives, but `gearmand` is very simple.
 
 The memcache of job queues.
 
-# Two statuses:
+# Three statuses:
 
-* OK
-* FAIL
+* OK (Like 200)
+* FAIL (Like 400)
+* ERROR (Like 500)
 
-# design so FAIL can be retried.
+# design so ERROR can be retried.
 
-# `gearmand` automatically tries a background job again.
+# `gearmand` automatically tries a job ERROR again.
 
 And again.
 
@@ -93,6 +94,14 @@ And again.
 # If it isn't sure it worked?
 
 Tries it again.
+
+# Error handling gets simpler
+
+* Exception? ERROR.
+* Database down? ERROR.
+* Downstream service timeout? ERROR.
+
+Maybe you retry right away.
 
 # How many of you have used a job queue?
 
