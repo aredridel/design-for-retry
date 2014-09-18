@@ -34,7 +34,7 @@ I'm here thanks to [PayPal](http://paypal.com)
 
 # Retry it
 
-5xx are errors the client can handle
+5xx are errors the requester can handle
 
 # Causes!
 
@@ -132,7 +132,7 @@ The most malicious network.
 
 If there's an error? Fail fast.
 
-The client can retry.
+The requester can retry.
 
 # Fail fast.
 
