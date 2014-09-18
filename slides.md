@@ -20,7 +20,7 @@ I'm here thanks to [PayPal](http://paypal.com)
 
 # Error avoidance
 
-## We call this
+## I'd call this
 
 # You can't avoid errors
 
@@ -74,6 +74,8 @@ Queue server
 Queues built in
 
 There are many alternatives, but `gearmand` is very simple.
+
+The memcache of job queues.
 
 # Two statuses:
 
