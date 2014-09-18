@@ -95,6 +95,12 @@ And again.
 
 Tries it again.
 
+# Not sure it worked?!
+
+You can usually tell when you have an error
+
+But you can't tell for sure that you've succeeded.
+
 # Error handling gets simpler
 
 * Exception? ERROR.
