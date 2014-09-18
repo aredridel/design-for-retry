@@ -19,7 +19,9 @@ $body$
         // Required, even if empty.
         Reveal.initialize({
             controls: false,
-            progress: false,
+            progress: true,
+            history: true,
+            fragments: true,
             rollingLinks: false,
             transition: "none",
             maxScale: 10.0,
