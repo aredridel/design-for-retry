@@ -95,11 +95,7 @@ And again.
 
 Tries it again.
 
-# Not sure it worked?!
-
-You can usually tell when you have an error
-
-But you can't tell for sure that you've succeeded.
+# You _cannot_ know if an error is a failure.
 
 # Error handling gets simpler
 
