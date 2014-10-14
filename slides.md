@@ -3,9 +3,9 @@
 
 ### Microservices, REST, message busses<br> and why idempotency is the only way to scale
 
-<a href="http://dinhe.net/~aredridel/">Aria Stewart</a>
+[http://dinhe.net/~aredridel](Aria Stewart)
 
-<a href="http://twitter.com/aredridel">@aredridel</a>
+[http://twitter.com/aredridel](@aredridel)
 
 I'm here thanks to [PayPal](http://paypal.com)
 
