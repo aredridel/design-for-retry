@@ -266,16 +266,40 @@ Resubmit.
 
 ^ I biked the pacific coast from Vancouver to San Francisco in 1997. My email was as reliable from a Palm Pilot with a modem as it is from my phone in 2014. Also, I can point out, its total capacity was smaller than `localStorage`
 
----
-
-# Some ideas
-
-* Queue things in `localStorage`
-* Use third-party storage
-* Integrate third-party services with this approach
+^ Now, sending an email is a particularly easy case: They're almost entirely independent of each other; even if a later message arrives first, there's enough metadata to reconstruct order of messages in a thread, and since it's human-processed, any slop can get resolved by people.
 
 ---
 
 # This is really good for offline-first design!
 
 ## Being offline is the ultimate retriable error.
+
+---
+
+# Some ideas
+
+---
+
+## Queue things in `localStorage`
+
+^ local storage is really good for keeping a queue of requests pending. For single page apps, this is probably the most amazing strategy for promoting a web app into an app app.
+
+---
+
+## Use third-party storage
+
+^ Your app could function even when your servers are completely offline. Host the source in a CDN. Store to your own servers. If they're down, store things to an S3 share with CORS turned on for later replay.
+
+---
+
+## Integrate third-party services with this approach.
+
+^ Anything with CORS turned on is a good candidate. If your app is actually managing state in a deeper way, being somewhat dependent on several external services is a lot less risky.
+
+---
+
+## Use different strategies for available resources vs contended
+
+^ Imagine you're selling widgets with a limited supply. Early on, you know that most orders will be fulfillable. The app starts optimistically, doesn't lock any resources and the user interface tells users it's submitting requests. As stock dwindles, the mode switches: Objects are reserved for a period of time while the order is being built, and requests that have to be queued tell the user to check back later to see if they worked.
+
+---
