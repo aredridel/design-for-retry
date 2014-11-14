@@ -2,13 +2,17 @@
 
 ---
 
-Hi, I'm [Aria Stewart](http://dinhe.net/~aredridel), that's [@aredridel](http://twitter.com/aredridel) on just about every service out there.
+# Hi!
+
+I'm [Aria Stewart](http://dinhe.net/~aredridel), that's [@aredridel](http://twitter.com/aredridel) on just about every service out there.
+
+Right now I'm an engineer at PayPal, working on the open source [Kraken.js](http://krakenjs.com) framework.
 
 ---
 
-I'm going to talk about errors.
+# I'm going to talk about errors.
 
-It's going to be okay.
+## It's going to be okay.
 
 ^ I told my last employer that I wasn't going to take a pager. I told them that anything I design would be designed to stay up.
 
