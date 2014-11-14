@@ -171,6 +171,8 @@ Tries it again.
 
 # You _cannot_ know if an error is a failure.
 
+^ Not quite true. But two phase commit requires so much coordination that you basically get a "CP" distributed system.
+
 ---
 
 # Error handling gets simpler
