@@ -249,13 +249,9 @@ Keeps outstanding requests.
 
 Resubmit.
 
----
+Try a different server!
 
-# We're Nodevember, We're Special
-
-## Bonus content time!
-
-^ I've got ten more minutes up here than I'd planned this talk for, so bonus material time!
+Try a second queue service. Maybe have a fallback plan.
 
 ---
 
@@ -267,9 +263,30 @@ Resubmit.
 
 ---
 
+
 # Ever lose an email because you've been logged out?
 
 ^ Now, a lot of systems try to avoid this by saving your work periodically.
+
+---
+
+# Latency + Mutable state = Distributed system
+
+## CAP Theorem Applies!
+
+^ It turns out that in any system with latency and mutable state, we're working with a distributed system. This means that our users and their devices are involved. And with a distributed system, CAP applies!
+
+---
+
+# C = Consistency
+
+If there's state that one part knows of that another doesn't? That's inconsistency.
+
+---
+
+# Job queues are controlled inconsistency.
+
+^ "This part of the change hasn't happened yet"
 
 ---
 
@@ -314,3 +331,9 @@ Resubmit.
 ^ Imagine you're selling widgets with a limited supply. Early on, you know that most orders will be fulfillable. The app starts optimistically, doesn't lock any resources and the user interface tells users it's submitting requests. As stock dwindles, the mode switches: Objects are reserved for a period of time while the order is being built, and requests that have to be queued tell the user to check back later to see if they worked.
 
 ---
+
+# Thank you!
+
+I hope you have lots of ideas queued up.
+
+Save your ideas and unspool them onto Twitter when you get home. Let me know if this changed how you think about designing applications!
