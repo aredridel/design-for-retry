@@ -26,6 +26,16 @@ Right now I'm an engineer at PayPal, working on the open source [Kraken.js](http
 
 ---
 
+```
+if (err) {
+    alert(err.message);
+} else {
+    doMyThing();
+}
+```
+
+---
+
 2xx OK
 
 3xx Go elsewhere
