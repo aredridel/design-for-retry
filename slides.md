@@ -1,13 +1,8 @@
+![Title](title.png)
 
-# Design for Retry
+---
 
-### Microservices, REST, message busses<br> and why idempotency is the only way to scale
-
-[Aria Stewart](http://dinhe.net/~aredridel)
-
-[@aredridel](http://twitter.com/aredridel)
-
-I'm here thanks to [PayPal](http://paypal.com)
+Hi, I'm [Aria Stewart](http://dinhe.net/~aredridel), that's [@aredridel](http://twitter.com/aredridel) on just about every service out there.
 
 ---
 
