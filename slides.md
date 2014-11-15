@@ -292,6 +292,8 @@ If there's state that one part knows of that another doesn't? That's inconsisten
 
 # Ever try to write email on the web while not on the Internet?
 
+## It's cloud easy!
+
 ^ I biked the pacific coast from Vancouver to San Francisco in 1997. My email was as reliable from a Palm Pilot with a modem as it is from my phone in 2014. Also, I can point out, its total capacity was smaller than `localStorage`
 
 ^ Now, sending an email is a particularly easy case: They're almost entirely independent of each other; even if a later message arrives first, there's enough metadata to reconstruct order of messages in a thread, and since it's human-processed, any slop can get resolved by people.
