@@ -86,6 +86,24 @@ if (err) {
 
 ---
 
+# But you can't just do things twice?
+
+## We must make operations _idempotent_
+
+---
+
+# Idempotency
+
+## Repeated actions have no effect, give the same result
+
+This means being smart about IDs. Don't recycle!
+
+Check if things are already done.
+
+They are? Just give the same answer again.
+
+---
+
 # Causes!
 
 * database down
