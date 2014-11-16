@@ -1,12 +1,10 @@
-![Title](title.png)
 
----
+# Design for Retry:
+## Microservices, REST, and why Idempotency is the only way to scale
 
-# Hi!
+I'm [Aria Stewart](http://dinhe.net/~aredridel), that's [@aredridel](http://twitter.com/aredridel) just about everywhere.
 
-I'm [Aria Stewart](http://dinhe.net/~aredridel), that's [@aredridel](http://twitter.com/aredridel) on just about every service out there.
-
-Right now I'm an engineer at PayPal, working on the open source [Kraken.js](http://krakenjs.com) framework.
+I'm here thanks to [PayPal](http://paypal.com). I work on the open source [Kraken.js](http://krakenjs.com) framework.
 
 ---
 
@@ -14,7 +12,9 @@ Right now I'm an engineer at PayPal, working on the open source [Kraken.js](http
 
 ## It's going to be okay.
 
-^ I told my last employer that I wasn't going to take a pager. I told them that anything I design would be designed to stay up.
+^ How many of you look forward to figuring out error handling?
+
+^ That many?
 
 ---
 
