@@ -328,6 +328,10 @@ If there's state that one part knows of that another doesn't? That's inconsisten
 
 ---
 
+## Use your queue as a place to measure for system sizing
+
+---
+
 ## Queue things in `localStorage`
 
 ^ local storage is really good for keeping a queue of requests pending. For single page apps, this is probably the most amazing strategy for promoting a web app into an app app.
