@@ -18,14 +18,6 @@ I'm here thanks to [PayPal](http://paypal.com). I work on the open source [Krake
 
 ---
 
-# We all know HTTP
-
-^ We all know HTTP. However, every day, I get asked "How do I make a good API out of this?" and after we get through the litany of "identify things with URLs" and "use good verbs that mean the right things", we get into the really hard questions.
-
-^ Because I'm one of those annoying people who answers every question with a question, I always ask "How are you going to handle errors?"
-
----
-
 ```
 if (err) {
     alert(err.message);
@@ -33,6 +25,16 @@ if (err) {
     doMyThing();
 }
 ```
+
+^ How many of you have written something like this?
+
+---
+
+# We all know HTTP
+
+^ Every day, I get asked "How do I make a good API out of this?" and after we get through the litany of "identify things with URLs" and "use good verbs that mean the right things", we get into the really hard questions.
+
+^ Because I'm one of those annoying people who answers every question with a question, I always ask "How are you going to handle errors?"
 
 ---
 
@@ -139,7 +141,7 @@ They are? Just give the same answer again.
 
 # Lots of ways to do it
 
-Database on the nodes
+Database on each node. Maybe LevelDB?
 
 Log file
 
