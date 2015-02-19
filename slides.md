@@ -4,7 +4,7 @@
 
 I'm [Aria Stewart](http://dinhe.net/~aredridel), that's [@aredridel](http://twitter.com/aredridel) just about everywhere.
 
-I'm here thanks to [PayPal](http://paypal.com). I work on the open source [Kraken.js](http://krakenjs.com) framework.
+I work on the [Kraken.js](http://krakenjs.com) framework.
 
 ---
 
