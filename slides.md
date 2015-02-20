@@ -362,4 +362,4 @@ If there's state that one part knows of that another doesn't? That's inconsisten
 
 I hope you have lots of ideas queued up.
 
-Save your ideas and unspool them onto Twitter when you get home. Let me know if this changed how you think about designing applications!
+Save your ideas and unspool them onto Twitter. Let me know if this changed how you think about designing applications!
